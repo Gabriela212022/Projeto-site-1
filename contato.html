@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link href="style.css" rel="stylesheet">
+    <title>Projeto 1 - Gabriela</title>
+</head>
+<body>
+    <header>
+        <div id="title">
+            <h1><img id="imgp" src="logo.png"></h1>
+        </div>
+
+        <ul>
+            <a href="index.html"><li>Início</li></a>
+            <a href="#"><li>Conteúdos</li></a>
+            <a href="#"><li>Informações</li></a>
+            <a href="contato.html"><li>Contato</li></a>
+        </ul>
+    </header>
+
+    <main>
+        <aside>
+            <form>
+                <h2 class="titulo-contato">Entre em Contato...</h2>
+                <input type="text" required placeholder="Nome">
+                <input type="email" required placeholder="seuemail@domínio.com">
+                <input type="tel" required placeholder="(XX) XXXXX-XXXX">
+                <textarea cols="70" rows="10" required></textarea>
+                <fieldset>
+					<legend>Como prefere o nosso contato?</legend>
+					<label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email"> Email</label>
+					
+					<label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone"> Telefone</label>
+					
+					<label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked> WhatsApp</label>
+				</fieldset>
+
+				<fieldset>
+					<legend>Qual horário prefere ser atendido?</legend>
+					<select>
+						<option>Manhã</option>
+						<option>Tarde</option>
+						<option>Noite</option>
+					</select>
+				</fieldset>
+
+				<label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por email?</label>
+                <input type="submit" value="Enviar">
+            </form>
+        </aside>
+            
+            <article id="mapa">
+                <h2 class="titulo-contato">Nossa Localização</h2>
+                	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.4483278365396!2d-46.63466568562861!3d-23.588249068469487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a2b2ed7f3a1%3A0xab35da2f5ca62674!2sCaelum!5e0!3m2!1spt-BR!2sbr!4v1568814489656!5m2!1spt-BR!2sbr" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            </article>
+    </main>
+        <footer>
+        <img id="imgp" src="logo.png">
+        <h3>Envie suas sugestões para:</h3>
+        <p>xxxxxx@gmail.com ou</p>
+        <p>(00) 00000-0000</p>
+    </footer>
+</body>
+</html>
